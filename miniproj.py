@@ -8,3 +8,4 @@ if image is not None:
 else:
     #print("Image loaded successfully!")
     print("image couldnt load")
+success = cv2.imwrite("output.jfif" , image)    
