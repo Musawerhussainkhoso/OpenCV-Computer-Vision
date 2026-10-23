@@ -5,7 +5,7 @@ if image is not None:
     cv2.imshow("Horse Picture" ,image)
     cv2.waitKey(0)
     cv2.destroyAllWindows() 
-    success = cv2.imwrite("output.jfif", image)
+    success = cv2.imwrite("output.jpg", image)
 
     if success:
         print("Image saved successfully!")
