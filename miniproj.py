@@ -5,3 +5,6 @@ if image is None:
 else:
     print("Image loaded successfully!")
     print(image.shape)
+cv2.imshow("Horse Picture" , image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()    
