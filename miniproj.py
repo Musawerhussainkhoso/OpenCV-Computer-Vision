@@ -1,5 +1,5 @@
 import cv2
-image = cv2.imread("brown-horse-with-white-star-isolated_1301368-57159.avif")
+image = cv2.imread(r"D:\OpenCV\image.png")
 if image is None:
     print("Image not loaded!")
 else:
